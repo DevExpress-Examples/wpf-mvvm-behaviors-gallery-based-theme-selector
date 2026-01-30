@@ -20,7 +20,7 @@ Namespace GalleryThemeSelectorBehavior
                     Case Else
                 End Select
 
-                If theme.Name Is "DeepBlue" Then
+                If Equals(theme.Name, "DeepBlue") Then
                     theme.ShowInThemeSelector = False
                 End If
             Next
